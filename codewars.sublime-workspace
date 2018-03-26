@@ -1,0 +1,521 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"an",
+				"ancestors\tfunc"
+			],
+			[
+				"MAKE_OF",
+				"MAKE_OF_TRUCK"
+			],
+			[
+				"mo",
+				"mod\tmodule .. end"
+			],
+			[
+				"def",
+				"def\tdef … end"
+			],
+			[
+				"begin",
+				"begin\tfunc"
+			],
+			[
+				"lambd",
+				"lambda\tfunc"
+			],
+			[
+				"feedzill",
+				"feedzilla_articles"
+			],
+			[
+				"feedzi",
+				"feedzilla_articles"
+			],
+			[
+				"slashdot",
+				"slashdot_articles"
+			],
+			[
+				"gather",
+				"gather_keyword_arguments"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"cla",
+				"cla\tclass .. end"
+			],
+			[
+				"cl",
+				"cla\tclass .. end"
+			],
+			[
+				"di",
+				"disabled\tAttr"
+			],
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"mult",
+				"multiply_and_add"
+			],
+			[
+				"sub",
+				"subtest"
+			],
+			[
+				"return",
+				"return_array_and_hash"
+			],
+			[
+				"retun",
+				"return_pop_values"
+			],
+			[
+				"global",
+				"global_variable"
+			],
+			[
+				"retu",
+				"return_global_variable"
+			],
+			[
+				"globa",
+				"global_variable"
+			],
+			[
+				"sec",
+				"secret_variable"
+			],
+			[
+				"inc",
+				"increment_secret_variable"
+			],
+			[
+				"sc",
+				"secret_variable"
+			],
+			[
+				"su",
+				"subtest_streamed"
+			],
+			[
+				"empty",
+				"empty_hsh"
+			],
+			[
+				"if",
+				"if\tConditional"
+			],
+			[
+				"for",
+				"foreach"
+			],
+			[
+				"is",
+				"is_deeply"
+			],
+			[
+				"ex",
+				"export"
+			],
+			[
+				"befor",
+				"beforeeach\tBefore Each"
+			],
+			[
+				"storage",
+				"storageName"
+			],
+			[
+				"befo",
+				"beforeeach\tBefore Each"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 484.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ericricketts/Documents/Codewars"
+	],
+	"file_history":
+	[
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToObjectOrientedProgramming/inheritance/exercises/test_exercise_6.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToObjectOrientedProgramming/inheritance/exercises/test_exercises_4_and_5.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToObjectOrientedProgramming/inheritance/exercises/test_exercise_3.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToObjectOrientedProgramming/inheritance/exercises/test_exercise_2.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToObjectOrientedProgramming/inheritance/exercises/test_exercise_1.rb",
+		"/Users/ericricketts/Documents/LearningRuby/modules/test_module_as_container.rb",
+		"/Users/ericricketts/Documents/LearningRuby/modules/test_name_spacing.rb",
+		"/Users/ericricketts/Documents/LearningRuby/class/test_super.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToObjectOrientedProgramming/the_object_model/exercises.rb",
+		"/Users/ericricketts/Documents/RegularExpressions/README.md",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/more_stuff/end_of_chapter_exercises.rb",
+		"/Users/ericricketts/Documents/LearningRuby/procs/test_calling_procs.rb",
+		"/Users/ericricketts/Documents/LearningRuby/procs/test_proc_basics_and_new.rb",
+		"/Users/ericricketts/Documents/LearningRuby/blocks/test_find_all_reject.rb",
+		"/Users/ericricketts/Documents/LearningRuby/blocks/test_yield_functionality.rb",
+		"/Users/ericricketts/Documents/LearningRuby/blocks/test_make_each_map_reduce_methods.rb",
+		"/Users/ericricketts/Documents/LearningRuby/blocks/test_basic_block_functionality.rb",
+		"/Users/ericricketts/Documents/LearningRuby/references/test_mutating_and_non_mutating_methods.rb",
+		"/Users/ericricketts/Documents/LearningRuby/references/test_references.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/files/third_exercise.rb",
+		"/Users/ericricketts/Documents/LearningRuby/hashes/test_hashes_basic_initialization.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/hashes/eighth_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/hashes/seventh_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/hashes/sixth_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/hashes/fifth_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/hashes/fourth_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/hashes/third_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/hashes/second_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/hashes/first_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/hashes/optional_parameters.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/hashes/iterating_over_hashes.rb",
+		"/Users/ericricketts/Documents/LearningRuby/arrays/test_arrays_accessing_elements.rb",
+		"/Users/ericricketts/Documents/LearningRuby/arrays/test_arrays_information_about_add_and_remove_items.rb",
+		"/Users/ericricketts/Documents/LearningRuby/arrays/test_arrays_basic_initialization.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/arrays/seventh_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/arrays/sixth_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/arrays/fifth_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/arrays/fourth_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/arrays/third_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/arrays/second_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/arrays/first_exercise.rb",
+		"/Users/ericricketts/Documents/LearningRuby/loops_and_conditionals/break_statement/break_test.rb",
+		"/Users/ericricketts/Documents/LearningRuby/loops_and_conditionals/next_statement/next_test.rb",
+		"/Users/ericricketts/Documents/LearningRuby/loops_and_conditionals/redo_statement/redo_test.rb",
+		"/Users/ericricketts/Documents/LearningRuby/loops_and_conditionals/for_loops/for_loop_test.rb",
+		"/Users/ericricketts/Documents/LearningRuby/loops_and_conditionals/while_loops/while_loop_test.rb",
+		"/Users/ericricketts/Documents/LearningRuby/loops_and_conditionals/until_loops/until_loop_test.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/loops_and_iterators/book_recursion.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/loops_and_iterators/second_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/loops_and_iterators/first_exercise.rb",
+		"/Users/ericricketts/Documents/LearningRuby/loops_and_conditionals/if_and_unless_statement_modifiers/test_if_and_unless_modifiers.rb",
+		"/Users/ericricketts/Documents/LearningRuby/loops_and_conditionals/unless_expression/test_unless.rb",
+		"/Users/ericricketts/Documents/LearningRuby/loops_and_conditionals/ternary_if/test_ternary.rb",
+		"/Users/ericricketts/Documents/LearningRuby/loops_and_conditionals/if_expression/if_expression_test.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/flow_control/sixth_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/flow_control/fourth_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/flow_control/refactor_in_range.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/flow_control/in_range.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/flow_control/upcase_string.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/flow_control/first_execise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/flow_control/flow_control_examples.rb",
+		"/Users/ericricketts/Documents/LearningRuby/methods/scope/test_scope.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/methods/sixth_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/methods/fifth_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/methods/fourth_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/methods/make_multiply.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/methods/second_exercise.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/methods/greeting_message.rb",
+		"/Users/ericricketts/Documents/LearningRuby/assignment/global_variables/test_global_variables.rb",
+		"/Users/ericricketts/Documents/LearningRuby/assignment/instance_variables/test_instance_variables.rb",
+		"/Users/ericricketts/Documents/LearningRuby/assignment/class_variables/test_class_variables.rb",
+		"/Users/ericricketts/Documents/LearningRuby/assignment/local_variables/test_local_variables.rb",
+		"/Users/ericricketts/Documents/LaunchSchoolPrepAndSupplements/IntroductionToProgramming/variables/age.rb",
+		"/Users/ericricketts/Documents/LearningRuby/literals/strings/strings_test.rb",
+		"/Users/ericricketts/Documents/LearningRuby/operations/test_integer_operations.rb",
+		"/Users/ericricketts/Documents/LearningRuby/literals/boolean_and_nil/true_false_test.rb",
+		"/Users/ericricketts/Documents/LearningRuby/operations/test_equality_comparison.rb",
+		"/Users/ericricketts/Documents/LearningRuby/regular_expressions/test_match_operator_and_method.rb",
+		"/Users/ericricketts/Documents/LearningRuby/literals/numbers/numbers_test.rb",
+		"/Users/ericricketts/Documents/LearningHTMLAndCSSAndJavascript/HTMLAndCSSAndJavascript/javascript/introduction-to-js-1/what-is-js/button.html",
+		"/Users/ericricketts/Documents/LearningHTMLAndCSSAndJavascript/HTMLAndCSSAndJavascript/javascript/introduction-to-js-1/what-is-js/button_test.js",
+		"/Users/ericricketts/Documents/LearningHTMLAndCSSAndJavascript/HTMLAndCSS/getting_started_with_html.html",
+		"/home/eric_ricketts/Documents/LearningPerl/variable_scope/test_variable_scope.pl",
+		"/home/eric_ricketts/hello.pl",
+		"/home/eric_ricketts/.cpanm/work/1496006055.31853/build.log",
+		"/home/eric_ricketts/Documents/LearningPerl/syntax/test1.pl",
+		"/home/eric_ricketts/Documents/LearningPerl/syntax/test1.t",
+		"/home/eric_ricketts/Documents/Javascript/MyReactProjects/hello-word/public/index.html",
+		"/home/eric_ricketts/Documents/Javascript/MyReactProjects/hello-word/src/logo.svg",
+		"/home/eric_ricketts/Documents/Javascript/kanban-app/app/libs/connect.jsx",
+		"/home/eric_ricketts/Documents/Javascript/kanban-app/app/stores/NoteStore.js",
+		"/home/eric_ricketts/Documents/Javascript/kanban-app/app/actions/NoteActions.js",
+		"/home/eric_ricketts/Documents/Javascript/kanban-app/app/components/Note.jsx",
+		"/home/eric_ricketts/Documents/Javascript/kanban-app/app/components/Notes.jsx",
+		"/home/eric_ricketts/Documents/Javascript/kanban-app/app/index.jsx",
+		"/home/eric_ricketts/Documents/Javascript/kanban-app/app/libs/persist.js",
+		"/home/eric_ricketts/Documents/Javascript/kanban-app/app/components/Editable.jsx",
+		"/home/eric_ricketts/Documents/Javascript/kanban-app/app/components/Provider/Provider.dev.jsx",
+		"/home/eric_ricketts/Documents/Javascript/kanban-app/app/libs/storage.js",
+		"/home/eric_ricketts/Documents/Javascript/YouDontKnowJavascript/README.md",
+		"/home/eric_ricketts/.git-credentials"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "codewars.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"s",
+				"HTMLAndCSSAndJavascript/css/styling-text/style1.css"
+			],
+			[
+				"text",
+				"HTMLAndCSSAndJavascript/javascript/introduction-to-js-1/what-is-js/text_label.html"
+			],
+			[
+				"but",
+				"HTMLAndCSSAndJavascript/javascript/introduction-to-js-1/what-is-js/button.html"
+			],
+			[
+				"simp",
+				"lib/My/SimpleModule.pm"
+			],
+			[
+				".bash_per",
+				".bash_profile"
+			],
+			[
+				".bashr",
+				".bashrc"
+			],
+			[
+				"index.html",
+				"hello-word/public/index.html"
+			],
+			[
+				"index.js",
+				"hello-word/src/index.js"
+			],
+			[
+				"package.json",
+				"hello-word/package.json"
+			],
+			[
+				"app.js",
+				"src_users/components/App.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"lanestore",
+				"app/stores/LaneStore.js"
+			],
+			[
+				"lane",
+				"app/actions/LaneActions.js"
+			],
+			[
+				"note",
+				"app/components/Note.jsx"
+			],
+			[
+				"notes.",
+				"app/components/Notes.jsx"
+			],
+			[
+				"lanehea",
+				"app/components/LaneHeader.jsx"
+			],
+			[
+				"app.j",
+				"app/components/App.jsx"
+			],
+			[
+				"lanes",
+				"app/components/Lane.jsx"
+			],
+			[
+				"lanes.jsx",
+				"app/components/Lanes.jsx"
+			],
+			[
+				"con",
+				"app/libs/connect.jsx"
+			],
+			[
+				"notestore",
+				"app/stores/NoteStore.js"
+			],
+			[
+				"notea",
+				"app/actions/NoteActions.js"
+			],
+			[
+				"setup.js",
+				"app/components/Provider/setup.js"
+			],
+			[
+				"editable",
+				"app/components/Editable.jsx"
+			],
+			[
+				"notes",
+				"app/components/Notes.jsx"
+			],
+			[
+				"connect",
+				"app/libs/connect.jsx"
+			],
+			[
+				"app",
+				"app/components/App.jsx"
+			],
+			[
+				"provider",
+				"app/components/Provider/Provider.dev.jsx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 307.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

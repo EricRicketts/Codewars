@@ -32,6 +32,7 @@ class TwoOldestAgesBestSolution < Minitest::Test
     # our thinking was the same but he remembered that
     # last can take an argument, that is how many last
     # very clever.
+    # another very good solution => ages.max(2).sort
     ages.sort.last(2)
   end
 

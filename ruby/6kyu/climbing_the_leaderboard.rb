@@ -60,6 +60,13 @@ end
 #       otherwise we find the range it is included in
 #       once we find the range we get the value for that range
 
+=end
+require 'minitest/autorun'
+require 'minitest/pride'
+require 'pry-byebug'
+
+class ClimbingTheLeaderboardFirstAttempt < Minitest::Test
+
   def leaderboard_climb(scores, kara)
     hsh = {}
     scores = scores.uniq
@@ -91,12 +98,24 @@ end
     end
   end
 
-=end
-require 'minitest/autorun'
-require 'minitest/pride'
-require 'pry-byebug'
+  def test_1
+    # skip
+    assert_equal([4, 3, 1], leaderboard_climb([100, 90, 90, 80], [70, 80, 105]))
+  end
 
-class ClimbingTheLeaderboard < Minitest::Test
+  def test_2
+    # skip
+    assert_equal([4, 4, 2, 1], leaderboard_climb([982, 490, 339, 180], [180, 250, 721, 2500]))
+  end
+
+  def test_3
+    # skip
+    assert_equal([4, 4, 2, 2], leaderboard_climb([1982, 490, 339, 180], [180, 250, 721, 880]))
+  end
+
+end
+
+class ClimbingTheLeaderboardSecondAttempt < Minitest::Test
 
 =begin
 
@@ -113,6 +132,7 @@ AL:
         - is < 100 && >= 90 || < 90 && >= 80; (90...100); (80...90)
         if in these rangs ranking is index + 1
 
+# even though it was less code, this was twice as slow as my first attempt
 =end
 
   def leaderboard_climb(scores, kara)
@@ -120,26 +140,19 @@ AL:
     max_score, min_score = scores.max, scores.min
     low_range = scores.size + 1
     kara.map do |kara_score|
-      if kara_score >= max_score
-        1
-      elsif kara_score < min_score
-        low_range
-      else
-        search_for_score(scores, kara_score)
+      case kara_score
+      when (max_score..Float::INFINITY) then 1
+      when (0...min_score) then low_range
+      else search_for_score(scores, kara_score)
       end
     end
   end
 
   def search_for_score(scores, kara_score)
-    range_value = 0
     scores.each_index.each_cons(2).with_index do |indices, idx|
       low_score, high_score = scores[indices.last], scores[indices.first]
-      if (low_score...high_score).include?(kara_score)
-        range_value = idx + 2
-        break
-      end
+      return idx + 2 if (low_score...high_score).include?(kara_score)
     end
-    range_value
   end
 
   def test_1
@@ -157,4 +170,47 @@ AL:
     assert_equal([4, 4, 2, 2], leaderboard_climb([1982, 490, 339, 180], [180, 250, 721, 880]))
   end
 
+end
+
+class ClimbingTheLeaderboardThirdAttempt < Minitest::Test
+
+  def leaderboard_climb(scores, kara)
+    scores = scores.uniq
+    max_score, min_score = scores.first, scores.last
+    low_range = scores.size + 1
+    kara.map do |kara_score|
+      case
+      when kara_score >= max_score then 1
+      when kara_score < min_score then low_range
+      else search_for_score(scores, kara_score)
+      end
+    end
+  end
+
+  def search_for_score(scores, kara_score)
+    last_idx = scores.size - 1
+    scores.each.with_index do |score, idx|
+      unless idx >= last_idx
+        lower_bound = scores[idx + 1]
+        upper_bound = score
+        return idx + 2 if kara_score >= lower_bound && kara_score < upper_bound
+      end
+    end
+  end  
+
+  def test_1
+    # skip
+    assert_equal([4, 3, 1], leaderboard_climb([100, 90, 90, 80], [70, 80, 105]))
+  end
+
+  def test_2
+    # skip
+    assert_equal([4, 4, 2, 1], leaderboard_climb([982, 490, 339, 180], [180, 250, 721, 2500]))
+  end
+
+  def test_3
+    # skip
+    assert_equal([4, 4, 2, 2], leaderboard_climb([1982, 490, 339, 180], [180, 250, 721, 880]))
+  end
+  
 end

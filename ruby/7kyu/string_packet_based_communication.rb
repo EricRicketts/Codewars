@@ -107,7 +107,7 @@ prepend makes the result format much easier
       case $~[:opcode]
       when add then result = $~[:data1].to_i + $~[:data2].to_i
       when subtract then result = $~[:data1].to_i - $~[:data2].to_i
-      else result = $~[:data1].to_i * $~[:data2].to_i  
+      when mult then result = $~[:data1].to_i * $~[:data2].to_i  
       end
       result = format_result(result)
       $~[:head] + op_result + result + '0000' + $~[:foot]    

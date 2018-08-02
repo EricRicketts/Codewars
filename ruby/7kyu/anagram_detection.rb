@@ -1,8 +1,8 @@
-require 'minitest/autorun'
-require 'minitest/pride'
-require 'byebug'
-
 =begin
+Anagram Detection
+
+(Level 7 Kata)
+
 An anagram is the result of rearranging the letters of a word to produce a new word (see wikipedia).
 
 Note: anagrams are case insensitive
@@ -14,6 +14,10 @@ Examples
 
 "Buckethead" is an anagram of "DeathCubeK"
 =end
+
+require 'minitest/autorun'
+require 'minitest/pride'
+require 'byebug'
 
 def is_anagram(test, original)
   original.downcase.chars.sort == test.downcase.chars.sort

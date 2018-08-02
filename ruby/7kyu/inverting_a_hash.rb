@@ -1,6 +1,8 @@
 =begin
 Inverting A Hash
 
+(Level 7 Kata)
+
 Summary
 Given a Hash made up of keys and values, invert the hash by swapping them.
 

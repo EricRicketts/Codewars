@@ -1,6 +1,8 @@
 =begin
 Sub-array elements sum
 
+(Level 7 Kata)
+
 Given an array (or list or vector) of arrays (or, guess what, lists or vectors) of integers, your goal is to return the sum of a specific set of numbers,
 starting with elements whose position is equal to the main array length and going down by one at each step.
 

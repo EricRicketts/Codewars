@@ -1,0 +1,76 @@
+Catherine said the algorithm needs to be developed with greater specificty before coding
+	- said running code iteratively and my explanations were good
+	- Key points:
+		- develop algorithm fully
+		- run code iteratively
+
+Catherine said the TA's want to see you explain your code, take your time, they want to see you
+develop your alogrithm fully before writing code
+
+=begin
+In this Kata you have to create a function,named insertMissingLetters,that takes in a string and outputs the same string processed in a particular way.
+
+The function should insert only after the first occurence of each character of the input string, all the alphabet letters that:
+
+-are NOT in the original string
+-come after the letter of the string you are processing
+
+Each added letter should be in uppercase, the letters of the original string will always be in lowercase.
+
+Example:
+
+input: "holly"
+
+missing letters: "a,b,c,d,e,f,g,i,j,k,m,n,p,q,r,s,t,u,v,w,x,z"
+
+output: "hIJKMNPQRSTUVWXZoPQRSTUVWXZlMNPQRSTUVWXZlyZ"
+
+You don't need to validate input, the input string will always contain a certain amount of lowercase letters (min 1 / max 50).
+
+Catherine's example of writing an algorithm, this is what the TA's are looking for
+
+Input: string, downcase alphabetical chars
+Output: string
+        after each char of the original string
+        we insert the letter of the alphabet, starting at that letter
+        until the end, uppercase
+        except: the letters that are part of the original string
+Algorithm: 
+- define a method that takes one parameter, a string
+- initialize an alphabet array containing the letters of the alphabet, upcase
+- initialize a new_str empty arr
+- split my initial str into chars with #chars, giving me an array of chars
+- iterate over the array of chars
+- on each iteration
+  - guard clause: if new_string.include?(current_char)
+                  new_str << current_char
+else:              
+  - push the char into new_str arr
+  - get the index of current_char(upcased) in the alphabet array
+  - initialize alphabet_slice, containing slice of the alphabet array after that index to the end
+  - delete from the alphabet_slice the chars (letters) that are part of original str
+  - push the alphabet_slice into new_str arr
+- return the new_str arr, calling join on it
+=end
+
+def insert_missing_letters(str)
+  alphabet = ('A'..'Z').to_a
+  new_str = []
+  str.chars.each do |char|
+    if new_str.include?(char)
+      new_str << char
+    else
+      new_str << char
+      letter_index = alphabet.index(char.upcase) + 1
+      alphabet_slice = alphabet[letter_index..-1]
+      str.upcase.chars.each { |char| alphabet_slice.delete(char) }
+      alphabet_slice.each { |char| new_str << char }
+    end
+  end
+  new_str.join
+end
+
+# Given a list of items, sort each item of the same type in ascending order, the positions of the items of the same type should remain the same.
+
+
+sort_by_type(['d', 3, 1, 'a', 'c', 2, 'b']) == ['a', 1, 2, 'b', 'c', 3, 'd']
